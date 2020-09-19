@@ -23,7 +23,7 @@ wn.tracer(0) # Turns of the screen updates
 head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
-head.color("gold")
+head.color("black")
 head.penup()
 head.goto(0,0)
 head.direction = "stop"
@@ -32,7 +32,7 @@ head.direction = "stop"
 food = turtle.Turtle()
 food.speed(0)
 food.shape("circle")
-food.color("brown")
+food.color("Black")
 food.penup()
 food.goto(0,100)
 
@@ -131,11 +131,10 @@ while True:
         new_segment.penup()
         segments.append(new_segment)
 
-        # Shorten the delay
-        delay -= 0.001
+
 
         # Increase the score
-        score += 50
+        score += 10
 
         if score > high_score:
             high_score = score
