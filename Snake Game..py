@@ -1,6 +1,6 @@
-  # Simple Snake Game
-  # By @TokyoEdTech
-  # Part 1: Getting started
+# Simple Snake Game
+# By @TokyoEdTech
+# Part 1: Getting started
 
 import turtle
 import time
@@ -23,7 +23,7 @@ wn.tracer(0) # Turns of the screen updates
 head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
-head.color("black")
+head.color("gold")
 head.penup()
 head.goto(0,0)
 head.direction = "stop"
