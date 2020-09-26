@@ -5,6 +5,7 @@
 import turtle
 import time
 import random
+# from turtle import Screen, Turtle
 
 delay = 0.1
 
