@@ -50,7 +50,23 @@ t.color("black")
 t.begin_fill()
 t.circle(10)
 t.end_fill()
-t.hideturtle()
+t.up()
+t.forward(60)
+t.right(45)
+t.down()
+t.forward(200)
+t.right(45)
+t.right(45)
+t.forward(300)
+t.left(180)
+t.forward(250)
+t.color("white")
+t.begin_fill()
+t.left(45)
+t.forward(20)
+t.forward(20)
+t.forward(35)
+t.end_fill()
 
 # Setup the Screen
 
@@ -59,9 +75,9 @@ wn.bgcolor("grey")
 wn.title("Basic Turtle Graphics")
 
 
-
 # Main Game loop
 while True:
     wn.update()
+
 
 wn.mainloop()
