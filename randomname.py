@@ -66,8 +66,21 @@ t.left(45)
 t.left(45)
 t.forward(143)
 t.end_fill()
+# the sun
+t.color("red")
+t.up()
+t.forward(300)
+t.left(90)
+t.forward(200)
+t.right(90)
+t.forward(50)
+t.color("yellow")
+t.begin_fill()
+t.left(90)
+t.down()
+t.circle(50)
+t.end_fill()
 t.hideturtle()
-
 
 # Setup the Screen
 
