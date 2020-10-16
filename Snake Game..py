@@ -132,8 +132,6 @@ while True:
         new_segment.penup()
         segments.append(new_segment)
 
-
-
         # Increase the score
         score += 10
 
@@ -167,6 +165,7 @@ while True:
             time.sleep(1)
             head.goto(0,0)
             head.direction = "stop"
+
 
             # Hide the segments
             for segment in segments:

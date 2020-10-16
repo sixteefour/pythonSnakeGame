@@ -1,7 +1,3 @@
-# Simple pong in Python 3 for beginners
-# By Sixteefour
-# Part 1 Getting started
-
 import turtle
 
 wn = turtle.Screen()

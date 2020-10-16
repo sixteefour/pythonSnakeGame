@@ -1,7 +1,4 @@
 # Drawing a car
-
-
-import time
 import turtle
 t = turtle.Pen()
 t.color("red")
@@ -80,16 +77,19 @@ t.left(90)
 t.down()
 t.circle(50)
 t.end_fill()
-t.hideturtle()
+t.up()
+t.left(90)
+t.forward(50)
+t.forward(250)
+t.down()
+
 
 # Setup the Screen
-
 wn = turtle.Screen()
 wn.bgcolor("grey")
 wn.title("Basic Turtle Graphics")
 
 
-# Main Game loop
 while True:
     wn.update()
 
